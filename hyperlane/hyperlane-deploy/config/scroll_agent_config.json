@@ -1,0 +1,23 @@
+{
+  "chains": {
+    "scroll": {
+      "addresses": {
+        "interchainGasPaymaster": "0xa0224F1A8A3dFA5E6022F0B583d78D4696a53aB0",
+        "mailbox": "0x4FF367EC04C5502A97E141F5E689e7de5cD873D0",
+        "validatorAnnounce": "0x1e1f10B514E5273F5f7a9bD7d9853c5f3a9d1FD6"
+      },
+      "connection": {
+        "type": "http",
+        "url": ""
+      },
+      "domain": "534353",
+      "finalityBlocks": 10,
+      "index": {
+        "from": "747540"
+      },
+      "name": "scroll",
+      "protocol": "ethereum",
+      "rpcStyle": "ethereum"
+    }
+  }
+}
