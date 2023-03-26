@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply selection:bg-fuchsia-300 selection:text-fuchsia-900;
+  }
+}
+
+@layer utilities {
+  .scrollbar::-webkit-scrollbar {
+    width: 12px;
+    height: 20px;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: #ecf2ff;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: #e3dffd;
+    border-radius: 100vh;
+    border: 0px solid #e5d1fa;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #fedeff;
+  }
+}
