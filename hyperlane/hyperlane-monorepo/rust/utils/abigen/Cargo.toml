@@ -1,0 +1,21 @@
+[package]
+name = "abigen"
+documentation.workspace = true
+edition.workspace = true
+homepage.workspace = true
+license-file.workspace = true
+publish.workspace = true
+version.workspace = true
+
+
+[dependencies]
+Inflector = "0.11"
+ethers = { workspace = true, optional = true }
+fuels = { version = "0.33", optional = true }
+which = {version =  "4.3", optional = true }
+
+[features]
+default = []
+ethers = ["dep:ethers"]
+fmt = ["dep:which"]
+fuels = ["dep:fuels", "fmt"]

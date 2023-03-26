@@ -1,0 +1,15 @@
+[package]
+name = "run-locally"
+documentation.workspace = true
+edition.workspace = true
+homepage.workspace = true
+license-file.workspace = true
+publish.workspace = true
+version.workspace = true
+
+[dependencies]
+ctrlc = "3.2"
+tempfile = "3.3"
+maplit = "1.0"
+nix = { version = "0.25", default-features = false, features = ["signal"] }
+ureq = { version = "2.4", default-features = false }
