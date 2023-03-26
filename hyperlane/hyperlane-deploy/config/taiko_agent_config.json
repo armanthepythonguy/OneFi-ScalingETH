@@ -1,0 +1,23 @@
+{
+  "chains": {
+    "taiko": {
+      "addresses": {
+        "interchainGasPaymaster": "0x30a40141F9111453f9C563BFBB89Ddb953552eb1",
+        "mailbox": "0x359C41D468ADd9b60657F485Ce20A36764944584",
+        "validatorAnnounce": "0x6AF166FE3652A2b0545Cb9C369C11F0967592B5C"
+      },
+      "connection": {
+        "type": "http",
+        "url": ""
+      },
+      "domain": 167004,
+      "finalityBlocks": 10,
+      "index": {
+        "from": 32703
+      },
+      "name": "taiko",
+      "protocol": "ethereum",
+      "rpcStyle": "ethereum"
+    }
+  }
+}
